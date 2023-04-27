@@ -72,7 +72,7 @@ header {
 }
 
 
-ul li {
+.navbar ul li {
     list-style-type: none;
     display: inline-flex;
     padding-right: 34px;
@@ -141,6 +141,17 @@ div, .txt-black {
 
 /* Main */
 
+
+/* Onde svg*/
+.wave {
+  display: block;
+  color: black;
+}
+
+.upside-down {
+    rotate: 0.5turn;
+}
+
 section {
     /*height: 600px;*/
     padding: 60px 0;
@@ -169,18 +180,16 @@ section > .container {
 }
 
 .bg-gray {
-   background-color: lightgray;
+   background-color: #c6c6c652;
 }
 
 
 .flex > .small-col {
-  background-color: pink;
   flex-basis: 40%;
   margin-top: px;
 }
 
 .flex > .large-col {
-  background-color: lightblue;
   flex-basis: 90%;
 }
 
@@ -222,26 +231,37 @@ section > .container {
 /* Footer */
 
 footer {
- background-color: black;
+ background-color: #443c53;
  padding: 20px 0;
 }
 
 .footer-top {
-    height: 600px;
     display: flex;
     border-bottom: 1px solid white;
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
 
+.nav-col > ul li {
+    list-style-type: none;
+    padding-right: px;
+    margin-bottom: 15px;
+    margin-top: 4px;
+}
+
+
+#logo-ita {
+    height: 14px;
+    vertical-align: middle;
+}
+
+
 .footer-left {
-    background-color: lightcoral;
     flex-basis: 30%;
 }
 
 
 .footer-right {
-    background-color: aquamarine;
     flex-basis: 70%;
 }
 
@@ -258,11 +278,42 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aquamarine;
     padding: 10px 0;
 }
 
 .footer-bottom > * {
-    background-color: pink;
+    background-color: ;
     padding: 5px;
+}
+
+
+#logo-header-bottom {
+    height: 26px;
+}
+
+.purple-bottom {
+    background-color: #d826d87d;
+    border-radius: 30px;
+    padding: 8px;
+    font-size: 15px;
+    color: white;
+}
+
+
+.purp-tx {
+    color: #8d96ed;
+}
+
+.footer-left > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.white-footer-tx {
+    color: white;
+}
+
+.icon-social > span {
+    padding-right: 19px;
+  color: white;
 }
