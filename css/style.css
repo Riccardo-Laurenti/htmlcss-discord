@@ -190,6 +190,35 @@ section > .container {
   text-align: center;
 }
 
+.full-col > h1 {
+    margin-bottom: 22px;
+    font-size: 41px;
+    margin-top: 40px;
+}
+
+
+.full-col > p {
+    font-size: 18px; 
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+
+.jumbo-badge-purple {
+    background-color: purple;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.jumbo-badge-purple > a {
+    color: white;
+}
+
+#star-w {
+    vertical-align: middle;
+    width: 29%;
+} 
 /* Footer */
 
 footer {
