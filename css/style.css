@@ -105,14 +105,36 @@ ul li {
 } 
 
 .content > h1 {
-    margin-bottom: 34px;
+    margin-bottom: 22px;
 }
 
 .content > p {
-    font-size: 20px; 
-    line-height: 30px;
+    font-size: 17px; 
+    line-height: 27px;
+    margin-bottom: 20px;
 }
 
+.jumbo-badge-white {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.jumbo-badge-black {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: black;
+}
+
+div, .txt-white {
+    color: white;
+}
+
+div, .txt-black {
+    color: black;
+}
 
 /* Main */
 
