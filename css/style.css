@@ -136,16 +136,33 @@ div, .txt-black {
     color: black;
 }
 
+
+
+
 /* Main */
 
 section {
-    height: 600px;
+    /*height: 600px;*/
     padding: 60px 0;
 }
 
 section > .container {
     height: 100%;
 }
+
+.small-col > h1 {
+    margin-bottom: 22px;
+    font-size: 41px;
+    margin-top: 40px;
+}
+
+
+.small-col > p {
+    font-size: 18px; 
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
 
 .bg-white {
    background-color: white;
@@ -159,16 +176,18 @@ section > .container {
 .flex > .small-col {
   background-color: pink;
   flex-basis: 40%;
+  margin-top: px;
 }
 
 .flex > .large-col {
   background-color: lightblue;
-  flex-basis: 60%;
+  flex-basis: 90%;
 }
 
 .flex > .full-col {
-  background-color: green;
+  /*background-color: green;*/
   flex-basis: 100%;
+  text-align: center;
 }
 
 /* Footer */
