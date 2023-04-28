@@ -129,11 +129,13 @@ div, .txt-black {
 /* Onde svg*/
 .wave {
   display: block;
-  color: black;
+  background-color: white;
+  color: rgb(211, 198, 198);
 }
 
 .upside-down {
     rotate: 0.5turn;
+    display: block;
 }
 
 section {
@@ -163,7 +165,7 @@ section > .container {
 }
 
 .bg-gray {
-   background-color: #c6c6c652;
+   background-color:  rgb(211, 198, 198);
 }
 
 
