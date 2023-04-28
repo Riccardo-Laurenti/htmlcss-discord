@@ -72,14 +72,17 @@ header {
 
 .jumbotron {
     height: 620px;
-    padding: 50px;
+    padding: 50px 0;
     background-color: blue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     background-image: url('../img/jumbo.png');
     background-size:cover;
+    background-position: center;
 }
 
 .jumbotron .content {
-    margin-top: 90px;
     text-align: center;
     font-size: 26px;
     color:white;
